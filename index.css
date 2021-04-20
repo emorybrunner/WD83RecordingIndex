@@ -1,0 +1,66 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: .05em;
+    margin: 0;
+    background-color: RGB(45, 45, 45);
+}
+
+#header {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: RGB(227, 62, 66);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.recording {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    width: 95%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    margin-bottom: 40px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(227, 62, 66);
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(227, 62, 66);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.8em 5px 1.8em;
+    margin-bottom: -1%;
+}
+
+.listDiv{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.timeStamps{
+    margin-bottom: -1%
+}
+
+b{
+    font-weight: bold;
+}
